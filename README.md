@@ -26,8 +26,12 @@ python script.py <gender> <is_work>
  - gender - Значение: Male/Female
  - is_work - Значение: 0/1
 
+Результат: кортеж вида (id, name)
+
 #### 3. Запуск тестов
 
+Из корневой директории проекта
+
 ```
-pytest
+python -m pytest
 ```
